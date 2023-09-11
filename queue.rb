@@ -10,7 +10,6 @@ class Queue
 		@queue.delete_at(0)
 	end
 end
-
 class User
 	attr_accessor :id
 	def initialize
