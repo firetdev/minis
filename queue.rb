@@ -10,6 +10,7 @@ class Queue
 		@queue.delete_at(0)
 	end
 end
+
 class User
 	attr_accessor :id
 	def initialize
@@ -19,7 +20,7 @@ end
 
 q = Queue.new
 
-puts "How many ids?"
+print "How many ids? "
 ids = gets.to_i
 
 (1..ids).each do |i|
